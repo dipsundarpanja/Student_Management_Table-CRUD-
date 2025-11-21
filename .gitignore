@@ -1,0 +1,73 @@
+﻿# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+**/bin/
+**/obj/
+**/out/
+publish/
+
+# Rider / JetBrains
+.idea/
+
+# NuGet
+*.nupkg
+# Packages folder for older projects
+**/packages/
+
+# Rider caches
+.cache/
+
+# ASP.NET Core / app settings
+appsettings.Development.json
+appsettings.*.Local.json
+
+# Secret manager
+secrets.json
+
+# Database files
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish / deployment artifacts
+*.zip
+*.tar.gz
+
+# Tools
+.vsconfig
+
+# Ignore compiled binaries and other common clutter
+*.exe
+*.dll
+*.pdb
+
+# HTTP files used for API testing (if you prefer not to track)
+# Uncomment if you don't want to commit CURD API.http
+# CURD API.http
